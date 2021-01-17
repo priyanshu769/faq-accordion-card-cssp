@@ -7,14 +7,22 @@ body {
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     font-family: 'Kumbh Sans', sans-serif;
 }
+.page {
+    overflow: hidden;
+}
 .faq-card {
     background-color: #ffffff;
-    background-image: url(images/bg-pattern-desktop.svg);
-    width: 70%;
+    width: 60%;
     margin: auto;
     border: 2px solid #ffffff;
     border-radius: 10px;
-    padding: 5rem 0;
+    padding: 4rem 0;
+}
+.card-bg-img {
+    position: absolute;
+    overflow: hidden;
+    bottom: 7rem;
+    right: 55rem;
 }
 .images, .faq-qna {
     display: inline-block;
@@ -24,33 +32,36 @@ body {
 }
 .images .img1{
     width: 400px;
+    left: 15rem;
+    top: 5rem;
+    position: relative;
 }
 .images .img2 {
-
+    position: relative;
+    z-index: 10;
+    right: 12rem;
+    top:3rem;
 }
-.img1 {
-    right: 50%;
-    bottom: 35%;
-}
-.img2 {
-    right: ;
-} 
 .faq-qna {
     width: 400px;
     margin: auto;
     position: relative;
-    left: 40rem;
+    left: 25rem;
 }
 .question {
 
 }
-.answer {
+.hide {
     display: none;
 }
 .question img {
     text-align: left;
-    cursor: pointer;
     width: 15px;
+}
+button {
+    background: none;
+    cursor: pointer;
+    border: none;
 }
 hr {
     width: ;
@@ -58,3 +69,8 @@ hr {
 .bold {
     font-weight: bold;;
 }
+/* @media only screen and (max-width: 375px) {
+    .images, .faq-qna {
+        display: ;
+    }
+  } */
