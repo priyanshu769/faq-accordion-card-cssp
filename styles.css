@@ -1,0 +1,60 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+* {
+    /* background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)); */
+}
+
+body {
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.faq-card {
+    background-color: #ffffff;
+    background-image: url(images/bg-pattern-desktop.svg);
+    width: 70%;
+    margin: auto;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 5rem 0;
+}
+.images, .faq-qna {
+    display: inline-block;
+}
+.images {
+    position: absolute;
+}
+.images .img1{
+    width: 400px;
+}
+.images .img2 {
+
+}
+.img1 {
+    right: 50%;
+    bottom: 35%;
+}
+.img2 {
+    right: ;
+} 
+.faq-qna {
+    width: 400px;
+    margin: auto;
+    position: relative;
+    left: 40rem;
+}
+.question {
+
+}
+.answer {
+    display: none;
+}
+.question img {
+    text-align: left;
+    cursor: pointer;
+    width: 15px;
+}
+hr {
+    width: ;
+}
+.bold {
+    font-weight: bold;;
+}
