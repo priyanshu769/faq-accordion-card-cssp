@@ -3,6 +3,11 @@
     /* background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)); */
 }
 
+:root {
+    --very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --dark-grayish-blue: hsl(240, 6%, 50%);
+}
+
 body {
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     font-family: 'Kumbh Sans', sans-serif;
@@ -21,7 +26,8 @@ body {
 .card-bg-img {
     position: absolute;
     overflow: hidden;
-    bottom: 7rem;
+    width: 700px;
+    bottom: 9rem;
     right: 55rem;
 }
 .images, .faq-qna {
@@ -31,16 +37,17 @@ body {
     position: absolute;
 }
 .images .img1{
+    overflow: hidden;
     width: 400px;
     left: 15rem;
-    top: 5rem;
-    position: relative;
+    top: 7rem;
+    position: absolute;
 }
 .images .img2 {
-    position: relative;
+    position: absolute;
     z-index: 10;
-    right: 12rem;
-    top:3rem;
+    left: 14rem;
+    top: 12rem;
 }
 .faq-qna {
     width: 400px;
@@ -48,8 +55,14 @@ body {
     position: relative;
     left: 25rem;
 }
+.faq-qna h1 {
+    color: var(--very-dark-grayish-blue);
+}
 .question {
-
+    color: var(--very-dark-grayish-blue);
+}
+.answer {
+    color: var(--dark-grayish-blue);
 }
 .hide {
     display: none;
@@ -59,9 +72,11 @@ body {
     width: 15px;
 }
 button {
+    outline: none;
     background: none;
     cursor: pointer;
     border: none;
+    float: right;
 }
 hr {
     width: ;
